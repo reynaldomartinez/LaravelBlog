@@ -21,7 +21,7 @@ class PagesController extends Controller
         $lastName = 'Martinez';
         $fullName = $firstName . " " . $lastName;
         $email = "rambo911@gmail.com";
-
+        //ARRAY WITH INFORMATION initialized and set to data1//
         $data = [];
         $data['fullname'] = $fullName;
         $data['email'] = $email;
